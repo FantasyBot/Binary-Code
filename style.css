@@ -207,7 +207,7 @@ footer p{
   position: absolute;
   right: 20px;
   top: 23px;
-  transition: .6s;
+  transition: .4s;
   display: none;
 }
 
@@ -223,6 +223,7 @@ footer p{
 
   .navBar .simbol{
     display: block;
+    font-size: 2rem;
   }
 
   .nav-links{
@@ -253,6 +254,48 @@ footer p{
  .section-div button{
    font-size: 0.9rem;
  }
+  
+
+}
+
+
+@media (max-width: 450px) {
+
+  .navBar .simbol{
+    font-size: 1.5rem;
+  }
+  .navBar .simbol:hover{
+    font-size: 25px;
+  }
+  .logo{
+    width: 2.5rem;
+    height: 2.5rem;
+   }
+   .nav-hide ul li{
+     font-size: 0.8rem;
+     margin: 15px 0;
+   }
+
+   .nav-hide ul li a{
+     font-size: 0.8rem;
+   }
+   .section-div{
+     padding-top: 50px;
+   }
+   .section-div h3{
+     font-size: 0.9rem;
+   }
+   .section-div h4{
+     font-size: 0.8rem;
+   }
+   .section-div button{ 
+     font-size: 10px;
+   }
+ 
+  section :nth-child(6) textarea, section :nth-child(2) textarea{
+    font-size: 12px;
+  }
+  
   
 
 }
