@@ -205,16 +205,21 @@ footer p{
   cursor: pointer;
   font-size: 30px;
   position: absolute;
-  right: 20px;
-  top: 23px;
+  right: 3%;
+  top: 50%;
+  transform: translate(-3%, -50%);
   transition: .4s;
   display: none;
 }
 
 .navBar .simbol:hover{
-  transform: rotate(180deg);
-  font-size: 35px;
+  color: red;
+  
 }
+.navBar .simbol:active{
+  color: black;
+}
+
 
 /*  B R E A K */
 
@@ -224,8 +229,7 @@ footer p{
   .navBar .simbol{
     display: block;
     font-size: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+   
   }
 
   .nav-links{
